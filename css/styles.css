@@ -36,13 +36,11 @@ body {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
     margin: 0;
     background-color: #FFFFFF;
     width: 1440px;
     height: 3300px;
-    top: -1169px;
-    left: 370px;
 }
 <!---======================HEADER=================---->
 .page-logo {
@@ -50,20 +48,24 @@ body {
     font-size: 18px;
     font-weight: 700;
     color: #2e2f42;
-    line-height: 1,16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.web {
+.page-logo .web {
     color: #4d5ae5
 }
-
-.menu-link {
+.page-logo .studio {
+    color: #2e2f42;
+}
+.menu .menu-link {
     font-size: 16px;
     font-weight: 500;
     color: #2E2F42;
-    line-height: 1,5;
+    line-height: 1.5;
 }
-.menu-link:hover,
-.menu-link:focus {
+.menu .menu-link:hover,
+.menu .menu-link:focus {
     color: #4D5AE5;
 }
 #contact-block {
@@ -73,7 +75,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
-    line-height: 1,5;
+    line-height: 1.5;
 }  
 <!----==============HERO==============----------->
 #hero {
@@ -110,7 +112,7 @@ body {
     background-color: #404BBF;
 }
 <----==============Advantages============-------->
-.advantages-list-title .h3 {
+.advantages-list-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -124,11 +126,6 @@ body {
     letter-spacing: 0.02em;
 }
 <-------================Our Team===============--------->
-#team {
-    weight: 1470px;
-    height: 732px;
-    background-color: #f4f4fd;
-}
 .section-title {
     font-size: 36px;
     font-weight: 700;
@@ -137,6 +134,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    background-color: #F4F4FD;
 }
 .team-list-fullname {
     font-size: 20px;
@@ -176,7 +174,7 @@ body {
     letter-spacing: 0.02em;
 }
 <------===========Footer=============------->
-.page-logo {
+#page-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -195,9 +193,9 @@ body {
 #page-footer {
     background-color: #2E2F42;
 }
-.web {
+.page-logo .web {
     color: #4d5ae5;
 }
-.studio {
+.page-logo .studio {
     color: #f4f4fd;
 }
