@@ -1,0 +1,162 @@
+<!-----==============COMMON STYLE================-----!>
+ul,
+ol {
+    list-style-item: none;
+}
+a {
+    color: #2E2F42;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+    margin: 0;
+}
+<!---======================HEADER=================---->
+.page-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2e2f42;
+    line-height: 1,16;
+}
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2E2F42;
+    line-height: 1,5;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #4D5AE5;
+}
+#contact-block {
+    font-style: normal;
+}
+.contact-list-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    line-height: 1,5;
+}  
+<!----==============HERO==============----------->
+#hero {
+    width: 1440px;
+    height: 600px;
+   
+}
+.hero h1 {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+.hero .btn {
+    width: 169px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+    color: #ffffff; 
+    padding: 16px, 32px, 16px, 32px;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+}    
+<----==============Advantages============-------->
+.advantages-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+}
+.advantages-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
+}
+<-------================Our Team===============--------->
+#team {
+    weight: 1470px;
+    height: 732px;
+    background: #f4f4fd;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1,11;
+    text-align: center;
+}
+.team-list-fullname {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+}
+.team-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0,66;
+}
+<-------================Our Portfolio===============--------->
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1,11;
+    text-align: center;
+}
+.portfolio-list-fullname {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1,2;
+}
+.portfolio-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0,66;
+}
+<------===========Footer=============------->
+#page-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4d5ae5;
+    color: #f4f4fd;
+    line-height: 1,16;
+}
+.page-list-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f4f4fd;
+    line-height: 0,66;
+}
+#page-footer {
+    background-color: #2E2F42;
+}
