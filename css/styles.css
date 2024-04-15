@@ -38,6 +38,11 @@ body {
     font-weight: 400;
     line-height: 1,5;
     margin: 0;
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 3300px;
+    top: -1169px;
+    left: 370px;
 }
 <!---======================HEADER=================---->
 .page-logo {
@@ -47,6 +52,10 @@ body {
     color: #2e2f42;
     line-height: 1,16;
 }
+.web {
+    color: #4d5ae5
+}
+
 .menu-link {
     font-size: 16px;
     font-weight: 500;
@@ -70,7 +79,7 @@ body {
 #hero {
     width: 1440px;
     height: 600px;
-   
+    background-color: #2e2f42;
 }
 .hero h1 {
     font-size: 56px;
@@ -79,84 +88,116 @@ body {
     color: #ffffff;
     width: 1440px;
     height: 600px;
-    background: #2e2f42;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    background-color: #2e2f42;
 }
 .hero .btn {
     width: 169px;
     height: 56px;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     font-family: inherit;
     color: #ffffff; 
     padding: 16px, 32px, 16px, 32px;
     background-color: #4D5AE5;
     border-radius: 4px;
 }    
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: #404BBF;
+}
 <----==============Advantages============-------->
-.advantages-list-title {
+.advantages-list-title .h3 {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .advantages-list-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 <-------================Our Team===============--------->
 #team {
     weight: 1470px;
     height: 732px;
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 .section-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .team-list-fullname {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background-color: #FFFFFF;
 }
 .team-list-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 0,66;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 <-------================Our Portfolio===============--------->
 .section-title {
     font-size: 36px;
     font-weight: 700;
-    line-height: 1,11;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .portfolio-list-fullname {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1,2;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-list-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 0,66;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 <------===========Footer=============------->
-#page-logo {
+.page-logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #4d5ae5;
-    color: #f4f4fd;
-    line-height: 1,16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .page-list-text {
     font-size: 16px;
     font-weight: 400;
     color: #f4f4fd;
-    line-height: 0,66;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 #page-footer {
     background-color: #2E2F42;
+}
+.web {
+    color: #4d5ae5;
+}
+.studio {
+    color: #f4f4fd;
 }
